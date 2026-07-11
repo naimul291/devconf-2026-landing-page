@@ -94,3 +94,45 @@ h1{
     margin-bottom:40px;
     font-size: large;
 }
+
+/*Meet the Speakers*/
+
+.main{
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+
+.main h1{
+    padding-bottom: 20px;
+}
+
+.main-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card{
+    background-color: whitesmoke;
+    border: rgb(214, 214, 214) solid 1px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.card img{
+    width:100%;
+    
+    border-radius:10px 10px 0 0;
+}
+
+.card p{
+text-align: left;
+padding: 5px 20px;
+}
+
+.card h4{
+text-align: left;
+padding: 5px 20px;
+}
