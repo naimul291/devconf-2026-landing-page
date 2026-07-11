@@ -136,3 +136,132 @@ padding: 5px 20px;
 text-align: left;
 padding: 5px 20px;
 }
+
+/*secure your spot*/
+
+.pricing-plan{
+    max-width:1200px;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+.pricing-card{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:24px;
+    margin-top: 50px;
+}
+
+
+.pricing-grid{
+    background:#ffffff;
+    border:1px solid #E5E7EB;
+    border-radius:12px;
+    padding:30px;
+    text-align:left;
+}
+
+
+.plan-color{
+    padding: 15px 0px;
+    color: #93C5FD;
+}
+
+.plan{
+    color: #333333;
+    padding: 15px 0px;
+}
+
+.color .plan-color{
+    color: #93C5FD;
+}
+    
+.pricing-plan h1{
+    color:#0D1B2A;
+}
+.pricing-plan p{
+color: #575757;
+
+}
+
+.pricing-grid ul{
+    display:block;
+    list-style:none;
+    margin-bottom:30px;
+    padding-top: 10px;
+}
+
+.pricing-grid h2{
+    font-size:52px;
+    color:#0D1B2A;
+}
+
+.color h2{
+    color:#fff;
+}
+
+.pricing-grid ul li{
+    margin-bottom:16px;
+    color:#333333;
+    font-size:17px;
+    position:relative;
+    padding-left:22px;
+}
+
+
+.pricing-grid ul li::before{
+    content:"•";
+    position:absolute;
+    left:0;
+    color:#2563EB;
+  
+}
+
+
+.pricing-grid button{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #1D4ED8;
+    background:white;
+    color:#1D4ED8;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.pricing-grid button:hover{
+    background:#1D4ED8;
+    color:white;
+}
+
+
+.pricing-grid.color{
+    background:#0F172A;
+    color:white
+    
+}
+
+.pricing-grid.color ul li{
+    color: #FFFFFF;
+}
+
+.pricing-grid.color hr{
+    border-color:#334155;
+}
+
+.pricing-grid hr{
+    color: E5E7EB;
+    margin: 30px 0px;
+}
+
+.pricing-grid.color button{
+    background:#2563EB;
+    color:white;
+}
+
+.pricing-grid.color button:hover{
+    background:#ffffff;
+    color: #2563EB;
+    
+}
