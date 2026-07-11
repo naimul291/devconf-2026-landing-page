@@ -265,3 +265,81 @@ color: #575757;
     color: #2563EB;
     
 }
+
+/*FAQ & Venue*/
+
+.info{
+    width:1200px;
+    margin:20px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:40px;
+}
+
+.faq{
+    flex:2;
+}
+
+.venue{
+    flex:1;  
+}
+
+.faq h1,
+.venue h1{
+    margin-bottom:20px;
+    font-size:35px;
+    text-align: center;
+}
+
+.subtitle{
+    margin-bottom: 20px;
+}
+
+.faq p,
+.venue p{
+    text-align: center;
+}
+
+details{
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    background:#fff;
+}
+
+summary{
+    padding:18px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+details p{
+    padding:0 18px 18px;
+    color:#666;
+}
+
+.venue-details h3{
+    margin-bottom:20px;
+}
+
+.venue-details{
+    background:#0F172A;
+    color:white;
+    padding:30px;
+    border-radius:12px;
+}
+
+.venue-details p{
+    margin:18px 0;
+    text-align: left;
+}
+
+.venue-details button{
+    text-align: center;
+}
+
+.venue-details button{
+    display:block;
+    margin:30px auto 0;
+}
